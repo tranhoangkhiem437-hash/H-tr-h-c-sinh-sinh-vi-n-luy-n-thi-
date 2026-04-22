@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Helvetica Neue', Arial, sans-serif;
+  
+  --color-brand-indigo: #6366F1;
+  --color-brand-violet: #8B5CF6;
+  --color-slate-background: #F8FAFC;
+  
+  --shadow-card: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+}
+
+@layer utilities {
+  .progress-fill {
+    background: linear-gradient(90deg, #6366F1 0%, #8B5CF6 100%);
+  }
+}
